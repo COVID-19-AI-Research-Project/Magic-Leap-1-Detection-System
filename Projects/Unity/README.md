@@ -109,7 +109,7 @@ Now you need to setup your Magic Leap 1 device in [Device Bridge](https://develo
 
 Once turned on and inside your world, you need to attach your Magic Leap 1 to your computer using the USB type C  connector. 
 
-Now head to Device Bridge in Lab. You should see the following in Device Bridge.
+Now head to Device Bridge in Lab. You should see the above in Device Bridge.
 
 Click on the **WiFi Bridge** button to activate WiFi, Device Bridge will reload and you should see the IP assigned to your device. This means that your PC is now bridged to the Magic Leap 1 device via WiFi.
 
