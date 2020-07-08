@@ -18,6 +18,8 @@
   - [Unity Hub](#unity-hub)
   - [Device Bridge](#device-bridge)
   - [Zero Iterator](#zero-iterator)
+  - [Classification Server](#classification-server)
+  - [Run The App](#run-the-app)
 - [Contributing](#contributing)
   - [Contributors](#contributors)
 - [Versioning](#versioning)
@@ -117,11 +119,11 @@ Click on the **WiFi Bridge** button to activate WiFi, Device Bridge will reload 
 
 [Zero Iteration](https://developer.magicleap.com/en-us/learn/guides/lab-zi "Zero Iteration") allows you to run your apps directly on the Magic Leap 1 device. Providing you have followed the above steps, open Zero Iterator from the Lab homepage, select your device, and restart the program. 
 
-## Classifier Server
+## Classification Server
 
 Now you need to make sure that your **COVID-19 Tensorflow DenseNet Classifier For Raspberry Pi 4** is running in **Server** mode and waiting for requests.
 
-## Run The Magic Leap 1 Unity COVID-19 Detection System
+## Run The App
 
 Now you are ready to fire up the Magic Leap 1 Unity COVID-19 Detection System! 
 
