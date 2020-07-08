@@ -17,7 +17,7 @@
 - [Useage](#useage)
   - [Unity Hub](#unity-hub)
   - [Device Bridge](#device-bridge)
-  - [Zero Iterator](#zero-iterator)
+  - [Zero Iteration](#zero-iteration)
   - [Classification Server](#classification-server)
   - [Run The App](#run-the-app)
 - [Contributing](#contributing)
