@@ -133,7 +133,7 @@ To import Magic Leap 1 Unity COVID-19 Detection System into Unity Hub, navigate 
 
 Now for some configuration. In Unity, open **File->Build Settings** and change the target to **Lumin** if not already done.
 
-![Import Project To Unity Hub](../Media/Images/lumin-location.png)
+![Lumin Location](../Media/Images/lumin-location.png)
 
 Now go to **Edit->Preferences** and head to the **Lumin** section. You now need to use the browse button to navigate to your version of the Lumin SDK. It should be in the path **C:/Users/YourUser/MagicLeap/mlsdk/v0.24.1**.
 
