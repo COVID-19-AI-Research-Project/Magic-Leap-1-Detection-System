@@ -12,7 +12,7 @@
 - [Introduction](#introduction)
 - [DISCLAIMER](#disclaimer)
 - [Magic Leap 1](#magic-leap-1)
-- [Unity](#unity)
+- [Unity](#unity-3d)
 - [Contributing](#contributing)
   - [Contributors](#contributors)
 - [Versioning](#versioning)
