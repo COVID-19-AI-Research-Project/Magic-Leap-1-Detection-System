@@ -1,5 +1,6 @@
 # Peter Moss COVID-19 AI Research Project
-## Magic Leap 1 Unity COVID-19 Detection System
+## Magic Leap 1 COVID-19 Detection System
+### Unity
 
 [![Magic Leap 1 COVID-19 Detection System](../../Media/Images/magic-leap-1-covid-19-detection-system.png)](https://github.com/COVID-19-AI-Research-Project/Magic-Leap-1-Detection-System)
 
@@ -91,12 +92,6 @@ Open **Magic Leap's Lab** and click on the **Launch** button for **Unity Hub**.
 
 [![Magic Leap 1 COVID-19 Detection System](Media/Images/magic-leap-lab.png)](https://developer.magicleap.com/en-us/learn/guides/lab)
 
-Click on the **ADD** button. This will open Windows Explorer allowing you to navigate to the project and import it. 
-
-![Import Project To Unity Hub](Media/Images/unity-hub-add.png)
-
-To import Magic Leap 1 Unity COVID-19 Detection System into Unity Hub, navigate to the **Magic-Leap-1-Detection-System/Src** directory and click **Select Folder**.
-
 Once you have done this you can open the project in Unity by clicking on it. 
 
 ![Import Project To Unity Hub](Media/Images/unity-view.png)
@@ -127,7 +122,7 @@ Now you need to make sure that your **COVID-19 Tensorflow DenseNet Classifier Fo
 
 Now you are ready to fire up the Magic Leap 1 Unity COVID-19 Detection System! 
 
-Head over to Unity and click on the play button. You can remove the cable connection and move to the center of your room. You should now see the Magic Leap 1 Unity COVID-19 Detection System in yor view. 
+Head over to Unity and click on the play button. You can remove the cable connection and move to the center of your room. You should now see the Magic Leap 1 Unity COVID-19 Detection System in your view. 
 
 ![Magic Leap 1 Unity COVID-19 Detection System](Media/Images/start.jpg)
 
@@ -172,4 +167,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](../../LIC
 
 # Bugs/Issues
 
-We use the [repo issues](issues "repo issues") to track bugs and general requests related to using this project. See [CONTRIBUTING](../../CONTRIBUTING.md "CONTRIBUTING") for more info on how to submit bugs, feature requests and proposals.
+We use the [repo issues](../../issues "repo issues") to track bugs and general requests related to using this project. See [CONTRIBUTING](../../CONTRIBUTING.md "CONTRIBUTING") for more info on how to submit bugs, feature requests and proposals.

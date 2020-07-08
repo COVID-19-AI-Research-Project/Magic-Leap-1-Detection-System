@@ -52,7 +52,7 @@ To develop applications for Magic Leap 1 we use the [Magic Leap Lab](https://dev
 
 **We would like to thank Magic Leap for sponsoring our association with the Magic Leap 1. This is just one of the many medical applications we will be building with Magic Leap to assist in the fight against COVID-19 and Leukemia.**
 
-We would also like to thank Rodney at MagicalLightandSound for personally taking his time to help us get off the ground with using the Unity development platform with Magic Leap. You can follow his tutorials on his [Github](https://github.com/magicallightandsound "Github") and [Twitch](https://www.twitch.tv/rodneydeveloper "Twitch"). 
+We would also like to thank Rodney at Magical Light and Sound for personally taking his time to help us get off the ground with using the Unity development platform with Magic Leap. You can follow his tutorials on his [Github](https://github.com/magicallightandsound "Github") and [Twitch](https://www.twitch.tv/rodneydeveloper "Twitch"). 
 
 &nbsp;
 
