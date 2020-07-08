@@ -84,6 +84,8 @@ Please read the [CONTRIBUTING](CONTRIBUTING.md "CONTRIBUTING") document for a fu
 
 - [Adam Milton-Barker](https://www.leukemiaresearchassociation.ai/team/adam-milton-barker "Adam Milton-Barker") - [Asociacion De Investigation En Inteligencia Artificial Para La Leucemia Peter Moss](https://www.leukemiaresearchassociation.ai "Asociacion De Investigation En Inteligencia Artificial Para La Leucemia Peter Moss") President & Lead Developer, Sabadell, Spain
 
+- [Lancaster University (PlamenLancaster)](https://www.leukemiaresearchassociation.ai/team/adam-milton-barker "Lancaster University (PlamenLancaster)") - [Professor Plamen Angelov](https://www.lancaster.ac.uk/lira/people/#d.en.397371) & [Eduardo Soares PhD](https://www.lancaster.ac.uk/sci-tech/about-us/people/eduardo-almeida-soares)
+
 &nbsp;
 
 # Versioning
