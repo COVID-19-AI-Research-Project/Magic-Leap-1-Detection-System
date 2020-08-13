@@ -33,7 +33,7 @@
 
 The following guide will take you through setting up and installing the [ Magic Leap 1 COVID-19 Detection System](https://github.com/COVID-19-AI-Research-Project/Magic-Leap-1-Detection-System/Projects/Unity " Magic Leap 1 COVID-19 Detection System").
 
-We would like to thank Rodney at Magical Light and Sound for personally taking his time to help us get off the ground with using the Unity development platform with Magic Leap. You can follow his tutorials on his [Github](https://github.com/magicallightandsound "Github") and [Twitch](https://www.twitch.tv/rodneydeveloper "Twitch"). 
+We would like to thank Rodney at Magical Light and Sound for personally taking his time to help us get off the ground with using the Unity development platform with Magic Leap. You can follow his tutorials on his [Github](https://github.com/magicallightandsound "Github") and [Twitch](https://www.twitch.tv/rodneydeveloper "Twitch").
 
 &nbsp;
 
@@ -46,11 +46,11 @@ We would like to thank Rodney at Magical Light and Sound for personally taking h
 
 # Prerequisites
 
-Before you can install the Magic Leap 1 Unity COVID-19 Detection System, there are some prerequisites. 
+Before you can install the Magic Leap 1 Unity COVID-19 Detection System, there are some prerequisites.
 
 ## HIAS Server
 
-If you are going to be using the full system you will need to install the [HIAS](https://github.com/LeukemiaAiResearch/HIAS "HIAS") server. Follow the [HIAS Installation Guide](https://github.com/LeukemiaAiResearch/HIAS/blob/master/Documentation/Installation/Installation.md "HIAS Installation Guide") to complete your HIAS server setup. 
+If you are going to be using the full system you will need to install the [HIAS](https://github.com/LeukemiaAiResearch/HIAS "HIAS") server. Follow the [HIAS Installation Guide](https://github.com/LeukemiaAiResearch/HIAS/blob/master/Documentation/Installation/Installation.md "HIAS Installation Guide") to complete your HIAS server setup.
 
 If you chose not to use the full system, steps are provided in this tutorial that will allow you to use the system without a HIAS installation.
 
@@ -58,14 +58,14 @@ If you chose not to use the full system, steps are provided in this tutorial tha
 
 If you want to train your own Artificial Intelligence required to detect COVID-19, you will need to complete the [COVID-19 Tensorflow DenseNet Classifier](https://github.com/COVID-19-AI-Research-Project/AI-Classification/tree/master/Projects/2) tutorial. If you would like to use the pre-trained model we have provided, you can skip to the next step.
 
-**YOU MUST USE THE SAME TRAIN AND TEST DATA AS THE TUTORIAL SPECIFIES**  
-The test data provided in the Magic Leap 1 Unity COVID-19 Detection System requires the same model to be used. 
+**YOU MUST USE THE SAME TRAIN AND TEST DATA AS THE TUTORIAL SPECIFIES**
+The test data provided in the Magic Leap 1 Unity COVID-19 Detection System requires the same model to be used.
 
 ## COVID-19 Tensorflow DenseNet Classifier For Raspberry Pi 4
 
-The COVID-19 Tensorflow DenseNet Classifier For Raspberry Pi 4 hosts a local server on a RPI4 allowing images to be classified remotely. In this project we use the AI model trained in the **COVID-19 Tensorflow DenseNet Classifier**, but we also provide the pre-trained model so that you can use the classifier "out of the box". 
+The COVID-19 Tensorflow DenseNet Classifier For Raspberry Pi 4 hosts a local server on a RPI4 allowing images to be classified remotely. In this project we use the AI model trained in the **COVID-19 Tensorflow DenseNet Classifier**, but we also provide the pre-trained model so that you can use the classifier "out of the box".
 
-Regardless of whether you choose to train your own model or use the pre-trained model, you will need to complete the [COVID-19 Tensorflow DenseNet Classifier For Raspberry Pi 4](https://github.com/COVID-19-AI-Research-Project/AI-Classification/tree/master/Projects/3) tutorial as this is the project that creates the classifier that the Magic Leap 1 will interact with. 
+Regardless of whether you choose to train your own model or use the pre-trained model, you will need to complete the [COVID-19 Tensorflow DenseNet Classifier For Raspberry Pi 4](https://github.com/COVID-19-AI-Research-Project/AI-Classification/tree/master/Projects/3) tutorial as this is the project that creates the classifier that the Magic Leap 1 will interact with.
 
 ## Clone the repository
 
@@ -105,41 +105,39 @@ The **-b "0.2.0"** parameter ensures you get the code from the latest master bra
 
 # Installation
 
-Below you will find the steps required to setup for Magic Leap development.
-
-## Magic Leap Basics
-
-Follow the [Magic Leap Developer Setup](https://developer.magicleap.com/en-us/learn/guides/develop-setup "Magic Leap Developer Setup") guide to install the required Magic Leap development tools.
-
-## Unity 2019.3.4f1
-
-For Magic Leap apps you need Unity 2019.3.4f1. Head to the [Unity 2019.3.4](https://unity3d.com/unity/whats-new/2019.3.4 "Unity 2019.3.4") page and download and install the **Lumin Target Support** exe. 
-
-Open **Magic Leap's Lab** and click on the **Launch** button for **Unity Hub**.
-
-[![Magic Leap 1 COVID-19 Detection System](../Media/Images/magic-leap-lab.png)](https://developer.magicleap.com/en-us/learn/guides/lab)
-
-Unity Hub will now open. 
-
-![Unity Installs](../Media/Images/unity-installs.png)
-
-Go to the **Installs** tab in Unity Hub and select **Unity 2019.3.4f1 (LTS)**, click next and continue until Unity 2019.3.4f1 (LTS) is installed.
+Below you will find the steps required to setup for Magic Leap development.Go to the **Installs** tab in Unity Hub and select **Unity 2019.3.4f1 (LTS)**, click next and continue until Unity 2019.3.4f1 (LTS) is installed.
 
 ![Import Project To Unity Hub](../Media/Images/unity-hub-add.png)
 
-Click on the **ADD** button. This will open Windows Explorer allowing you to navigate to the project and import it. 
+Click on the **ADD** button. This will open Windows Explorer allowing you to navigate to the project and import it.
 
-To import Magic Leap 1 Unity COVID-19 Detection System into Unity Hub, navigate to the **Magic-Leap-1-Detection-System/Src** directory and click **Select Folder**.
+To import Acute Lymphoblastic Leukemia Detection System For Magic Leap 1 into Unity Hub, navigate to the **Magic-Leap-1-ALL-Detection-System-2020/Src** directory and click **Select Folder**.
 
-Now for some configuration. In Unity, open **File->Build Settings** and change the target to **Lumin** if not already done.
+Now open the project by double clicking on it, if you get a warning, click Continue.
+
+Now follow the [Magic Leap Unity Setup](https://developer.magicleap.com/en-us/learn/guides/get-started-developing-in-unity) guide. When you get to the **Unity Project Setup** skip the rest of the tutorial and follow the steps here below.
+
+In Unity, open **File->Build Settings** and change the target to **Lumin** if not already done.
 
 ![Lumin Location](../Media/Images/lumin-location.png)
 
 Now go to **Edit->Preferences** and head to the **Lumin** section. You now need to use the browse button to navigate to your version of the Lumin SDK. It should be in the path **C:/Users/YourUser/MagicLeap/mlsdk/v0.24.1**.
 
-Next you need to add your Magic Leap certificate. Follow the [Get a Developer Certificate](https://developer.magicleap.com/en-us/learn/guides/developer-certificates "Get a Developer Certificate") guide on Magic Leap's website. 
+In Unity import the Magic Leap package. Click **Assets->Import Package->Custom Package**. Now in the file explorer that opens, navigate to **C:\Users\YOUR_USER\MagicLeap\tools\unity\v0.24.2** and double click on the **MagicLeap-Tools.unitypackage** file.
 
-Once you have your certificate you need to add it to your Unity project. Go to **Edit->Project Settings->Publish Settings** and click **Sign Package** then click the button **...** to open Explorer, navigate to the location you saved your certificate to and select the folder. 
+![Install Legacy Input Helpers Package](../Media/Images/input-helpers.png)
+
+Next go to **Edit->Project Settings**, click on **XR Settings** and click on **Install Legacy Input Helpers Package** as shown above.
+
+![Plugin Providers](../Media/Images/plugin-providers.png)
+
+Now you need to set the plugin providers for Magic Leap. Go to **Project Settings->XR Plugin Management** and click the checkbox in **Plugin Providers** adding **Magic Leap**.
+
+Go to **Magic Leap->ML Remote** and click on **Import Support Libraries** then click on **Launch Zero Iteration**.
+
+Next you need to add your Magic Leap certificate. Follow the [Get a Developer Certificate](https://developer.magicleap.com/en-us/learn/guides/developer-certificates "Get a Developer Certificate") guide on Magic Leap's website.
+
+Once you have your certificate you need to add it to your Unity project. Go to **Edit->Project Settings->Publish Settings** and click **Sign Package** then click the button **...** to open Explorer, navigate to the location you saved your certificate to and select the folder.
 
 # Magic Leap 1
 

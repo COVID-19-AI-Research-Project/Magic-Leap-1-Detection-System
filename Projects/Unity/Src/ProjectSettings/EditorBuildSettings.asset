@@ -9,5 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/COVID-19-Detections-System.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2ba4dbd235ed941bb8fdb5a40ab00f22,
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: c58f2f382058e6e42ad2d9cf52e6ae40,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 1a02609bcf5a8264fb4e60859a9dc8e5,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4980e27c922625a43b6d583345451db1,
       type: 2}
